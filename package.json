@@ -1,0 +1,24 @@
+{
+  "name": "webcomponents",
+  "version": "1.0.0",
+  "description": "Supporting examples for talk given at NovJS 2019",
+  "scripts": {
+    "example1": "http-server -o ./src/example1/index.html",
+    "example2": "http-server -o ./src/example2/index.html",
+    "example3": "http-server -o ./src/example3/index.html"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wibily/webcomponents.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wibily/webcomponents/issues"
+  },
+  "homepage": "https://github.com/wibily/webcomponents#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
