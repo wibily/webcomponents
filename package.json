@@ -5,8 +5,9 @@
   "scripts": {
     "example1": "http-server -o ./src/example1/index.html",
     "example2": "http-server -o ./src/example2/index.html",
-    "example3": "http-server -o ./src/example3/index.html"
-
+    "example3": "http-server -o ./src/example3/index.html",
+    "example4": "http-server -o ./src/example4/index.html",
+    "example5": "http-server -o ./src/example5/index.html"
   },
   "repository": {
     "type": "git",
