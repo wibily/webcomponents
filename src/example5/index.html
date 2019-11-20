@@ -1,18 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Example 5 - Form-associated custom element</title>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Example 5 - Form-associated custom element</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+  </head>
 
-<body>
-  <h1>Doggo Ipsum 3 paragraphs</h1>
-  <form id='form'>
-    <dog-breed name="dogOnly"></dog-breed>
-    <button>Submit</button>
-  </form>
-  <script src="./script.js"></script>
-</body>
+  <body>
+    <h1>Form assocatiated custom element</h1>
 
+    <div class="flex">
+      <div class="left">
+        <p>
+          This input field below will asynchronously check whether or not the
+          input field is a valid dog breed.
+        </p>
+        <p>
+          Validation is done purely native html form validation.
+        </p>
+        <form id="form">
+          <dog-breed name="dogOnly"></dog-breed>
+          <button>Submit</button>
+        </form>
+        <h2>Server Response:</h2>
+        <div id="serverResp"></div>
+      </div>
+      <div class="right">
+        <h2>Form result</h2>
+        <div id="formResult"></div>
+      </div>
+      <script src="./script.js"></script>
+    </div>
+  </body>
 </html>

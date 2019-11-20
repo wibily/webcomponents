@@ -1,0 +1,11 @@
+.flex {
+  display: flex;
+}
+
+.left {
+  flex: 0 1 80%;
+}
+
+.right {
+  flex: 0 1 20;
+}
